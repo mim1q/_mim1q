@@ -1,0 +1,36 @@
+:root {
+  font-size: 18px;
+  background-color: #111111;
+  color: #DDDDDD;
+  font-family: 'Open Sans';
+  padding: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #0074D9;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+
+  list-style: none;
+}
+
+li {
+  display: block;
+  width: 500px;
+  padding: 1rem;
+}
