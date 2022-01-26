@@ -21,18 +21,15 @@ h1 {
   padding: 1rem;
 }
 
-ul {
+.wrapper {
   display: flex;
 
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
-
-  list-style: none;
+  gap: 1rem;
 }
 
-li {
-  display: block;
+section {
   max-width: 500px;
   padding: 1rem;
 }
@@ -40,4 +37,8 @@ li {
 .technologies {
   color: #AAAAAA;
   font-style: italic;
+}
+
+summary {
+  color: #0074D9;
 }
